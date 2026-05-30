@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criar Figurinhas da Copa 2026</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #063f2d;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #063f2d, #0b6b3a);
+      text-align: center;
+    }
+    .hero { max-width: 900px; }
+    .logo {
+      width: 250px;
+      height: 120px;
+      margin: 0 auto 25px;
+      border-radius: 24px;
+      background: #ffc107;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #063f2d;
+      font-size: 42px;
+      font-weight: bold;
+      box-shadow: 0 8px 25px rgba(0,0,0,.35);
+    }
+    h1 {
+      font-size: clamp(38px, 7vw, 78px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    h1 span { color: #ffc107; }
+    .subtitle {
+      font-size: 22px;
+      max-width: 700px;
+      margin: 0 auto 35px;
+      color: #e9fff4;
+    }
+    .btn {
+      display: inline-block;
+      background: #ffc107;
+      color: #062b20;
+      padding: 16px 34px;
+      border-radius: 999px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,.3);
+    }
+    section { padding: 70px 20px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-title {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 45px;
+      color: #ffc107;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 22px;
+      padding: 28px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,.2);
+    }
+    .icon { font-size: 46px; margin-bottom: 15px; }
+    .card h3 { font-size: 24px; margin-bottom: 10px; }
+    .steps {
+      background: #f8f8f8;
+      color: #073d2b;
+    }
+    .steps .section-title { color: #073d2b; }
+    .step {
+      background: #fff;
+      border-radius: 20px;
+      padding: 26px;
+      border-left: 8px solid #ffc107;
+    }
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #ffc107, #ffdd57);
+      color: #073d2b;
+    }
+    .cta h2 { font-size: 42px; margin-bottom: 15px; }
+    .cta p { font-size: 21px; margin-bottom: 28px; }
+    .cta .btn { background: #073d2b; color: #fff; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #03271c;
+      color: #cdeee0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div class="logo">Digitais Apps</div>
+      <h1>Crie suas <span>figurinhas</span> da Copa 2026</h1>
+      <p class="subtitle">Transforme suas fotos, pets, personagens e ideias em figurinhas personalizadas com tema de futebol.</p>
+      <a href="https://play.google.com/store/apps/details?id=criar.figurinhas.personalizadas" class="btn">Baixar aplicativo</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Recursos do aplicativo</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">📸</div>
+          <h3>Use sua foto</h3>
+          <p>Escolha uma imagem da galeria ou tire uma foto na hora com a câmera do celular.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎨</div>
+          <h3>Personalize</h3>
+          <p>Adicione nome, descrição, país, cores e estilo para deixar sua figurinha única.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌎</div>
+          <h3>Vários países</h3>
+          <p>Crie figurinhas com temas dos países da Copa 2026 e opções extras especiais.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📲</div>
+          <h3>Compartilhe</h3>
+          <p>Envie suas figurinhas para redes sociais e aplicativos de mensagens.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="container">
+      <h2 class="section-title">Como funciona</h2>
+      <div class="grid">
+        <div class="step">
+          <h3>1. Informe os dados</h3>
+          <p>Digite o nome e uma breve descrição para aparecer na figurinha.</p>
+        </div>
+        <div class="step">
+          <h3>2. Escolha uma foto</h3>
+          <p>Use uma foto sua, do seu pet, de um desenho ou qualquer ideia criativa.</p>
+        </div>
+        <div class="step">
+          <h3>3. Selecione o país</h3>
+          <p>Escolha a seleção e gere sua figurinha personalizada em poucos segundos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="download">
+    <div class="container">
+      <h2>Entre no clima da Copa!</h2>
+      <p>Crie figurinhas divertidas, compartilhe com amigos e monte sua coleção personalizada.</p>
+      <a href="https://play.google.com/store/apps/details?id=criar.figurinhas.personalizadas" class="btn">Disponível na Play Store</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Criar Figurinhas da Copa. Aplicativo independente de criação de figurinhas personalizadas.</p>
+  </footer>
+</body>
+</html>
